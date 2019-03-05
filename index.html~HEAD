@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Ivascu Vlad">
+		<meta name="description" content="History of film">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<title> History of Film | Welcome </title> 
+		<link rel="shortcut icon" href="iconita.ico" >
+	</head>
+
+
+	<body>  
+		<header>
+			
+			<div class="frame">
+				<div id="brand">
+					<img src="brand.png">
+				</div>
+
+				
+
+				<nav>
+
+					<ul>
+						<li><a class="current" href="main.html">Home</a></li>
+						<li><a href="begin.html">The Beginning</a></li>
+						<li><a href="socol.html">Sound and Colour</a></li>
+						<li><a href="pww2.html">Post World War II </a></li>
+						<li><a href="today.html">Recent Times</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<section id="showcase">
+			<div class="frame">
+				<h1>The birth, maturation and creative evolution of cinema</h1>
+				<p> A project developed by Ivascu Vlad-Mihai, student of the Univeristy of Bucharest,the Faculty of Mathematics and Computer Science, for the Web Techniques course.</p>
+			</div>
+		</section>
+
+
+		<section id="boxes">
+			<div class="frame">
+				<div class="box">
+					<img class="showimg" src="hands.png">
+						<h3>Early Days</h3>
+						<p>From drawings and storytelling to photographs and films.</p> 
+
+					</div>
+
+
+				<div class="box">
+					<img class="showimg" src="camera.png">
+						<br><br><br><h3>Technology</h3>
+
+						<p>How did they do it?How did sound and colour come around?Learn more in this demo website.</p> 
+
+					</div>
+
+				<div class="box">
+					<img class="showimg" src="chaplin.png">
+						<h3>Who?</h3>
+						<p>Whether it's Pitt,Bogart or Chaplin, cinema has always had its iconic front figures.</p> 
+
+					</div>
+
+
+			</div>
+		</section>
+
+
+		<footer>
+			<p>A website created by Ivascu Vlad-Mihai&copy in 2018 as part of a college project.</p>
+			<p>All rights reserved under fair use.</p>
+		</footer>
+
+	</body>
+
+
+
+
+</html>
