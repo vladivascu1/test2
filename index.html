@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Ivascu Vlad">
+		<meta name="description" content="History of film">
+		<script src = "javascript5.js"></script>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<title> History of Film | Welcome </title> 
+		<link rel="shortcut icon" href="iconita.ico" >
+	</head>
+
+
+	<body>  
+		<header>
+			
+			<div class="frame">
+				<div id="brand">
+					<img src="brand.png">
+				</div>
+
+				
+
+				<nav>
+
+					<ul>
+						<li><a class="current" href="main.html">Home</a></li>
+						<li><a href="begin.html">The Beginning</a></li>
+						<li><a href="socol.html">Sound and Colour</a></li>
+						<li><a href="pww2.html">Post World War II </a></li>
+						<li><a href="today.html">Recent Times</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<section id="showcase" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="frame">
+				<h1 id = "desch1">The birth, maturation and creative evolution of cinema</h1>
+				<p  id ="desch2"  > A project developed by Ivascu Vlad-Mihai, student of the Univeristy of Bucharest,the Faculty of Mathematics and Computer Science, for the Web Techniques course.</p>
+			</div>
+		<button id = "textcolbtn">Press!</button>
+		<p id="pressdiv">Press the photo!</p>	
+		</section>
+
+
+		
+		<div id ="divbgchange" >
+				<p id ="partest"><i>Drag and drop over the showcase photo to change it</i></p>
+
+				<img class = "bgchange" id = "bgchange1" src="detective.jpg" draggable="true" ondragstart="drag(event)">
+
+				<img  class = "bgchange" id ="bgchange2"  src="wayn.jpg" draggable="true" ondragstart="drag(event)">
+				
+				<img  class = "bgchange" id ="bgchange3"  src="theatre.jpg" draggable="true" ondragstart="drag(event)">
+				
+		
+		</div>
+
+		<section id="boxes">
+			<div class="frame">
+				<div class="box" >
+					<img class="showimg" id ="img1" src="hands.png">
+						<h3>Early Days</h3>
+						<p>From drawings and storytelling to photographs and films.</p> 
+
+					</div>
+
+
+				<div class="box">
+					<img class="showimg" id ="img2"  src="camera.png">
+						<br><br><br><h3>Technology</h3>
+
+						<p>How did they do it?How did sound and colour come around?Learn more in this demo website.</p> 
+
+					</div>
+
+				<div class="box">
+					<img class="showimg" id ="img3"  src="chaplin.png">
+						<h3>Who?</h3>
+						<p>Whether it's Pitt,Bogart or Chaplin, cinema has always had its iconic front figures.</p> 
+
+					</div>
+
+
+			</div>
+		</section>
+
+		<footer>
+			<p>A website created by Ivascu Vlad-Mihai&copy in 2018 as part of a college project.</p>
+			<p>All rights reserved under fair use.</p>
+			<p><span onclick="showref()">Show references</span> / <span onclick="hideref()">Hide references</span></p>
+		</footer>
+
+	</body>
+
+
+
+
+</html>
