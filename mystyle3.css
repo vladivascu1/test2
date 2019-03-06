@@ -1,0 +1,269 @@
+
+*
+{
+	font-size: 16px;
+}
+
+body
+{
+	font-family: Georgia,serif;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+	color:white;
+	background-color: black;
+}
+
+.frame
+{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header
+{
+	background:#b3b3b3;
+	color:white;
+	padding-top:30px;
+	border-bottom:#ffc61a 3px solid;
+	min-height:75px;
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+}
+
+header ul
+{
+	padding:0;
+	margin:0;
+}
+
+header li
+{
+	float:left;
+	display:inline;
+	padding: 0 15px 0 15px;
+}
+
+#brand
+{
+	float:left;
+}
+
+#brand h1
+{
+	margin:0;
+}
+
+header nav
+{
+	float:right;
+	margin-top: 15px;
+}
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	text-align:center;
+	border-top:#ffc61a 1px solid;;
+}
+
+.subtitle
+{text-align: center;
+font-size: 2em;
+color: #ffc61a;}
+
+article p:nth-of-type(2n+1)
+{border:#ffc61a 1px solid;}
+
+
+aside#sidebar
+{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+button
+{
+	margin-bottom: 10px;
+	margin:right: 20px;
+}
+
+.addbtn {
+    background-color: #ffc61a;
+    color: white;
+    padding: 16px;
+    font-family: Georgia,serif;
+    border: none;
+    cursor: pointer;
+    float: right;
+
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ffc61a;}
+
+.show {display: block;}
+
+
+article{
+	text-align:center;
+	width:auto;
+}
+
+#currentImage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border:#ffc61a 1px solid;
+}
+
+#currentText, #helperText
+{
+  font-size: 1.2em;
+  text-align:center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    float:center;
+    text-align:center;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+color:black;
+background-color: #ffc61a}
+
+
+.aux{
+background-color: black;
+}
+
+caption
+{
+color:#ffc61a;
+}
+
+
+ol,span >p {
+float:center;
+text-align:center;
+list-style-position: inside;
+}
+
+#pozahepburn
+{
+vertical-align:middle;
+border:#ffc61a 1px solid;
+width:20%;
+
+}
+
+
+#hepburns
+{
+	float:center;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #hepburns{
+    display:none;
+}
+
+
+}
+
+@media only screen and (min-width: 1100px) {
+  
+nav a:hover
+{
+background-color: black;
+padding:15px;
+border:#ffc61a 1px solid;
+}
+
+nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: white;
+	 }
+
+.current
+{
+	background-color:#ffc61a;
+	padding:15px;
+	border:black 1px solid;
+}
+
+}
+
+@media only screen and (max-width: 1100px)
+{
+	.current
+{
+	color:#ffc61a;
+}
+	
+	nav a:hover
+	{
+		color:black;
+	}
+
+
+
+}
+
+#quiz
+{
+	float: center;
+	text-align: center;
+}
+
+div > h3
+{
+	color: #ffc61a;
+}
+
